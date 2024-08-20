@@ -196,10 +196,15 @@ button.desencriptar:hover {
         padding: 10px 20px;
     }
 
-        #result {
+    #result {
         height: auto; /* Permite que la altura sea automática */
         max-height: calc(100vh - 300px); /* Limita la altura máxima */
         overflow-y: auto; /* Permite desplazamiento si es necesario */
+    }
+
+    #logo {
+        max-width: 80px; /* Ajusta el tamaño del logo en tabletas */
+        height: auto;
     }
 }
 
@@ -228,10 +233,15 @@ button.desencriptar:hover {
         padding: 8px 16px;
     }
 
-        #result {
+    #result {
         height: auto; /* Permite que la altura sea automática */
         max-height: calc(100vh - 300px); /* Limita la altura máxima */
         overflow-y: auto; /* Permite desplazamiento si es necesario */
+    }
+
+    #logo {
+        max-width: 60px; /* Ajusta el tamaño del logo en móviles */
+        height: auto;
     }
 }
 
