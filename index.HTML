@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="assets/aluralogo.png" alt="Logotipo" id="logo">
+        </div>
+        <div class="main-content">
+            <h1>Encriptador de Texto</h1>
+            <textarea id="inputText" placeholder="Escribe algo aquí..."></textarea>
+            <button id="clearButton" onclick="clearText()" style="display: none;">Limpiar</button>
+            <p id="message">Bienvenido al encriptador</p>
+            <div class="buttons">
+                <button class="encriptar" onclick="encrypt()">Encriptar</button>
+                <button class="desencriptar" onclick="decrypt()">Desencriptar</button>
+            </div>
+        </div>
+        <div class="result-container">
+            <button id="copyButton" onclick="copyResult()">Copiar texto</button>
+            <div id="result">
+                <div class="imagen_de_buscadora">
+                    <img src="assets/buscadora.png" alt="Imagen de buscadora">
+                    <p>Ingresa el texto que quieres encriptar o desencriptar para obtener un resultado aquí</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Desarrollado por Terry</p>
+        <img src="assets/marketechsolutionslogo.png" alt="MarkeTech Solutions Logo" id="footer-logo">
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
