@@ -195,6 +195,12 @@ button.desencriptar:hover {
         font-size: 16px;
         padding: 10px 20px;
     }
+
+        #result {
+        height: auto; /* Permite que la altura sea automática */
+        max-height: calc(100vh - 300px); /* Limita la altura máxima */
+        overflow-y: auto; /* Permite desplazamiento si es necesario */
+    }
 }
 
 /* Estilos específicos para móviles (hasta 768px) */
@@ -220,6 +226,12 @@ button.desencriptar:hover {
     #copyButton, #clearButton {
         font-size: 14px;
         padding: 8px 16px;
+    }
+
+        #result {
+        height: auto; /* Permite que la altura sea automática */
+        max-height: calc(100vh - 300px); /* Limita la altura máxima */
+        overflow-y: auto; /* Permite desplazamiento si es necesario */
     }
 }
 
